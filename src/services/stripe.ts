@@ -1,5 +1,5 @@
 import Stripe from 'stripe';
-import {version} from '../../package.json'
+// import {version as v} from '../../package.json'
 
 
 export const stripe = new Stripe(
@@ -8,7 +8,7 @@ export const stripe = new Stripe(
     apiVersion: '2020-08-27',
     appInfo:{
       name: 'Ignews',
-      version
+      version: "0.1.0",
     }
 
   }
