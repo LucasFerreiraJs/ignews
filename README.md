@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<div align="center">
+  <h2>Ignews | Rocketseat Ignite</h2>
 
-First, run the development server:
+</div>
+
+<p align="center" style="margin-top: 35px">
+  <img src="./public/images/pg-01.png" width="50%"style="" alt="Ignews" >
+    <img src="./public/images/pg-02.png" width="50%" style="" alt="Ignews" >
+</p>
+
+
+## Sobre o Projeto
+Ignews é uma das etapas do curso [Rocketseat | Ignite ReactJs](https://www.rocketseat.com.br/) onde exploramos recursos serverless do [NextJs](https://nextjs.org/). O blog possui integração com Stripe, o exercício é liberar o conteúdo após a inscrição do usuário, caso contrário, ele verá apenas uma parte do post.
+
+### 🛠 Tecnologias
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Next.js](https://nextjs.org/)
+- [Prismic CMS](https://prismic.io/)
+- [Stripe](https://stripe.com/)
+- [FaunaDB](https://fauna.com/)
+
+
+### 🎲 Rodando o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Instale as dependências
+$ yarn install
+# ou
+$ npm install
+
+# Execute a aplicação
+$ yarn dev
+# ou
+$ npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

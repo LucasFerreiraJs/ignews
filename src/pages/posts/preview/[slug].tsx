@@ -22,7 +22,7 @@ interface IPostPreview {
 
 export default function PostPreview({ post }: IPostPreview) {
 
-  const {data: session} = useSession();
+  const { data: session } = useSession();
   const router = useRouter()
 
   useEffect(() => {
@@ -118,6 +118,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       post
     },
-    redirect: 60 *30, //30 minutos
+    redirect: 60 * 30, //30 minutos
   }
 }
